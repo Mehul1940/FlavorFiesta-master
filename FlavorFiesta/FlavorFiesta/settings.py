@@ -6,7 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Security settings
 SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", "insecure-dev-key")
 DEBUG = os.environ.get("DEBUG", "False") == "True"
-ALLOWED_HOSTS = ['flavorfiesta-oe6j.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['flavorfiesta-master.onrender.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
